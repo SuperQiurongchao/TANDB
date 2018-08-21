@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5680C82C212C362A0098DECF /* TANDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5680C82A212C362A0098DECF /* TANDatabase.m */; };
+		5680C82D212C362A0098DECF /* TANDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5680C82B212C362A0098DECF /* TANDatabase.h */; };
+		5680C835212C36310098DECF /* TANDBDelete.m in Sources */ = {isa = PBXBuildFile; fileRef = 5680C82F212C36310098DECF /* TANDBDelete.m */; };
+		5680C836212C36310098DECF /* TANDBGet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5680C830212C36310098DECF /* TANDBGet.h */; };
+		5680C837212C36310098DECF /* TANDBSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 5680C831212C36310098DECF /* TANDBSave.m */; };
+		5680C838212C36310098DECF /* TANDBGet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5680C832212C36310098DECF /* TANDBGet.m */; };
+		5680C839212C36310098DECF /* TANDBDelete.h in Headers */ = {isa = PBXBuildFile; fileRef = 5680C833212C36310098DECF /* TANDBDelete.h */; };
+		5680C83A212C36310098DECF /* TANDBSave.h in Headers */ = {isa = PBXBuildFile; fileRef = 5680C834212C36310098DECF /* TANDBSave.h */; };
 		9D943C5A212AC0F200B817EB /* TANDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D943C50212AC0F200B817EB /* TANDB.framework */; };
 		9D943C5F212AC0F200B817EB /* TANDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943C5E212AC0F200B817EB /* TANDBTests.m */; };
 		9D943C61212AC0F200B817EB /* TANDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943C53212AC0F200B817EB /* TANDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -97,6 +105,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5680C82A212C362A0098DECF /* TANDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANDatabase.m; sourceTree = "<group>"; };
+		5680C82B212C362A0098DECF /* TANDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDatabase.h; sourceTree = "<group>"; };
+		5680C82F212C36310098DECF /* TANDBDelete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANDBDelete.m; sourceTree = "<group>"; };
+		5680C830212C36310098DECF /* TANDBGet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBGet.h; sourceTree = "<group>"; };
+		5680C831212C36310098DECF /* TANDBSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANDBSave.m; sourceTree = "<group>"; };
+		5680C832212C36310098DECF /* TANDBGet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANDBGet.m; sourceTree = "<group>"; };
+		5680C833212C36310098DECF /* TANDBDelete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBDelete.h; sourceTree = "<group>"; };
+		5680C834212C36310098DECF /* TANDBSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBSave.h; sourceTree = "<group>"; };
 		9D943C50212AC0F200B817EB /* TANDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TANDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D943C53212AC0F200B817EB /* TANDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TANDB.h; sourceTree = "<group>"; };
 		9D943C54212AC0F200B817EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -204,6 +220,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5680C829212C362A0098DECF /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				5680C82A212C362A0098DECF /* TANDatabase.m */,
+				5680C82B212C362A0098DECF /* TANDatabase.h */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		5680C82E212C36310098DECF /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				5680C82F212C36310098DECF /* TANDBDelete.m */,
+				5680C830212C36310098DECF /* TANDBGet.h */,
+				5680C831212C36310098DECF /* TANDBSave.m */,
+				5680C832212C36310098DECF /* TANDBGet.m */,
+				5680C833212C36310098DECF /* TANDBDelete.h */,
+				5680C834212C36310098DECF /* TANDBSave.h */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
 		9D943C46212AC0F200B817EB = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +333,8 @@
 			children = (
 				9D943CA4212AC14100B817EB /* ORM */,
 				9D943CC4212AC14100B817EB /* fmdb */,
+				5680C829212C362A0098DECF /* Database */,
+				5680C82E212C36310098DECF /* Operation */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -395,8 +435,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D943CED212AC14100B817EB /* TANDBColumn.h in Headers */,
+				5680C839212C36310098DECF /* TANDBDelete.h in Headers */,
 				9D943CE3212AC14100B817EB /* TANDBIndexBinding.h in Headers */,
 				9D943CE4212AC14100B817EB /* TANDBTableProtocol.h in Headers */,
+				5680C836212C36310098DECF /* TANDBGet.h in Headers */,
+				5680C82D212C362A0098DECF /* TANDatabase.h in Headers */,
 				9D943CE8212AC14100B817EB /* TANDBRelation.h in Headers */,
 				9D943CDC212AC14100B817EB /* NSString+TANDBColumnCode.h in Headers */,
 				9D943CEE212AC14100B817EB /* TANDBConfiguration.h in Headers */,
@@ -408,6 +451,7 @@
 				9D943CD8212AC14100B817EB /* NSObject+TANDBColumnCode.h in Headers */,
 				9D943CD6212AC14100B817EB /* NSDate+TANDBColumnCode.h in Headers */,
 				9D943CF7212AC14100B817EB /* FMDatabaseAdditions.h in Headers */,
+				5680C83A212C36310098DECF /* TANDBSave.h in Headers */,
 				9D943CDB212AC14100B817EB /* NSNumber+TANDBColumnCode.h in Headers */,
 				9D943CEA212AC14100B817EB /* TANDBColumnProtocol.h in Headers */,
 				9D943CE2212AC14100B817EB /* TANDBBinding.h in Headers */,
@@ -610,8 +654,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D943CE0212AC14100B817EB /* TANDBIndexBinding.m in Sources */,
+				5680C837212C36310098DECF /* TANDBSave.m in Sources */,
 				9D943CE1212AC14100B817EB /* TANDBConstaintBinding.m in Sources */,
 				9D943CEB212AC14100B817EB /* TANDBAttribute.m in Sources */,
+				5680C82C212C362A0098DECF /* TANDatabase.m in Sources */,
+				5680C835212C36310098DECF /* TANDBDelete.m in Sources */,
 				9D943CF4212AC14100B817EB /* FMDatabase.m in Sources */,
 				9D943CD9212AC14100B817EB /* NSDate+TANDBColumnCode.m in Sources */,
 				9D943CE5212AC14100B817EB /* TANDBColumn.m in Sources */,
@@ -624,6 +671,7 @@
 				9D943CDF212AC14100B817EB /* TANDBBinding.m in Sources */,
 				9D943CD7212AC14100B817EB /* NSString+TANDBColumnCode.m in Sources */,
 				9D943CEC212AC14100B817EB /* TANDBRelation.m in Sources */,
+				5680C838212C36310098DECF /* TANDBGet.m in Sources */,
 				9D943CD5212AC14100B817EB /* NSData+TANDBColumnCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
