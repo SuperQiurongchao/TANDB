@@ -10,6 +10,66 @@
 		9D943C5A212AC0F200B817EB /* TANDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D943C50212AC0F200B817EB /* TANDB.framework */; };
 		9D943C5F212AC0F200B817EB /* TANDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943C5E212AC0F200B817EB /* TANDBTests.m */; };
 		9D943C61212AC0F200B817EB /* TANDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943C53212AC0F200B817EB /* TANDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D943C72212AC10600B817EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943C71212AC10600B817EB /* AppDelegate.m */; };
+		9D943C75212AC10600B817EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943C74212AC10600B817EB /* ViewController.m */; };
+		9D943C78212AC10600B817EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D943C76212AC10600B817EB /* Main.storyboard */; };
+		9D943C7A212AC10700B817EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D943C79212AC10700B817EB /* Assets.xcassets */; };
+		9D943C7D212AC10700B817EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D943C7B212AC10700B817EB /* LaunchScreen.storyboard */; };
+		9D943C80212AC10700B817EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943C7F212AC10700B817EB /* main.m */; };
+		9D943C8A212AC10800B817EB /* TANDBDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943C89212AC10800B817EB /* TANDBDemoTests.m */; };
+		9D943C95212AC10800B817EB /* TANDBDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943C94212AC10800B817EB /* TANDBDemoUITests.m */; };
+		9D943CD3212AC14100B817EB /* NSObject+TANDBColumnCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CA6212AC14100B817EB /* NSObject+TANDBColumnCode.m */; };
+		9D943CD4212AC14100B817EB /* NSNumber+TANDBColumnCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CA7212AC14100B817EB /* NSNumber+TANDBColumnCode.m */; };
+		9D943CD5212AC14100B817EB /* NSData+TANDBColumnCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CA8212AC14100B817EB /* NSData+TANDBColumnCode.m */; };
+		9D943CD6212AC14100B817EB /* NSDate+TANDBColumnCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CA9212AC14100B817EB /* NSDate+TANDBColumnCode.h */; };
+		9D943CD7212AC14100B817EB /* NSString+TANDBColumnCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CAA212AC14100B817EB /* NSString+TANDBColumnCode.m */; };
+		9D943CD8212AC14100B817EB /* NSObject+TANDBColumnCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CAB212AC14100B817EB /* NSObject+TANDBColumnCode.h */; };
+		9D943CD9212AC14100B817EB /* NSDate+TANDBColumnCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CAC212AC14100B817EB /* NSDate+TANDBColumnCode.m */; };
+		9D943CDA212AC14100B817EB /* NSData+TANDBColumnCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CAD212AC14100B817EB /* NSData+TANDBColumnCode.h */; };
+		9D943CDB212AC14100B817EB /* NSNumber+TANDBColumnCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CAE212AC14100B817EB /* NSNumber+TANDBColumnCode.h */; };
+		9D943CDC212AC14100B817EB /* NSString+TANDBColumnCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CAF212AC14100B817EB /* NSString+TANDBColumnCode.h */; };
+		9D943CDE212AC14100B817EB /* TANDBConstaintBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CB2212AC14100B817EB /* TANDBConstaintBinding.h */; };
+		9D943CDF212AC14100B817EB /* TANDBBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CB3212AC14100B817EB /* TANDBBinding.m */; };
+		9D943CE0212AC14100B817EB /* TANDBIndexBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CB4212AC14100B817EB /* TANDBIndexBinding.m */; };
+		9D943CE1212AC14100B817EB /* TANDBConstaintBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CB5212AC14100B817EB /* TANDBConstaintBinding.m */; };
+		9D943CE2212AC14100B817EB /* TANDBBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CB6212AC14100B817EB /* TANDBBinding.h */; };
+		9D943CE3212AC14100B817EB /* TANDBIndexBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CB7212AC14100B817EB /* TANDBIndexBinding.h */; };
+		9D943CE4212AC14100B817EB /* TANDBTableProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CB9212AC14100B817EB /* TANDBTableProtocol.h */; };
+		9D943CE5212AC14100B817EB /* TANDBColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CBA212AC14100B817EB /* TANDBColumn.m */; };
+		9D943CE6212AC14100B817EB /* TANDBORMHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CBB212AC14100B817EB /* TANDBORMHeader.h */; };
+		9D943CE7212AC14100B817EB /* TANDBAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CBC212AC14100B817EB /* TANDBAttribute.h */; };
+		9D943CE8212AC14100B817EB /* TANDBRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CBD212AC14100B817EB /* TANDBRelation.h */; };
+		9D943CE9212AC14100B817EB /* TANDBMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CBE212AC14100B817EB /* TANDBMacro.h */; };
+		9D943CEA212AC14100B817EB /* TANDBColumnProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CBF212AC14100B817EB /* TANDBColumnProtocol.h */; };
+		9D943CEB212AC14100B817EB /* TANDBAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CC0212AC14100B817EB /* TANDBAttribute.m */; };
+		9D943CEC212AC14100B817EB /* TANDBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CC1212AC14100B817EB /* TANDBRelation.m */; };
+		9D943CED212AC14100B817EB /* TANDBColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CC2212AC14100B817EB /* TANDBColumn.h */; };
+		9D943CEE212AC14100B817EB /* TANDBConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CC3212AC14100B817EB /* TANDBConfiguration.h */; };
+		9D943CEF212AC14100B817EB /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CC5212AC14100B817EB /* FMDatabase.h */; };
+		9D943CF0212AC14100B817EB /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CC6212AC14100B817EB /* FMDatabaseQueue.m */; };
+		9D943CF1212AC14100B817EB /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CC7212AC14100B817EB /* FMResultSet.h */; };
+		9D943CF2212AC14100B817EB /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CC8212AC14100B817EB /* FMDatabasePool.h */; };
+		9D943CF3212AC14100B817EB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CC9212AC14100B817EB /* FMDatabaseAdditions.m */; };
+		9D943CF4212AC14100B817EB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CCA212AC14100B817EB /* FMDatabase.m */; };
+		9D943CF5212AC14100B817EB /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CCB212AC14100B817EB /* FMDatabaseQueue.h */; };
+		9D943CF6212AC14100B817EB /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CCC212AC14100B817EB /* FMDB.h */; };
+		9D943CF7212AC14100B817EB /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D943CCD212AC14100B817EB /* FMDatabaseAdditions.h */; };
+		9D943CF8212AC14100B817EB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CCE212AC14100B817EB /* FMDatabasePool.m */; };
+		9D943CF9212AC14100B817EB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CCF212AC14100B817EB /* FMResultSet.m */; };
+		9D943CFA212AC14100B817EB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D943CD0212AC14100B817EB /* Info.plist */; };
+		9D943D00212AC3FE00B817EB /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CFC212AC3FE00B817EB /* UserInfo.m */; };
+		9D943D01212AC3FE00B817EB /* Moment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CFD212AC3FE00B817EB /* Moment.m */; };
+		9D943D02212AC66F00B817EB /* TANDBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CC1212AC14100B817EB /* TANDBRelation.m */; };
+		9D943D03212AC67600B817EB /* TANDBAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CC0212AC14100B817EB /* TANDBAttribute.m */; };
+		9D943D04212AC68400B817EB /* TANDBBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CB3212AC14100B817EB /* TANDBBinding.m */; };
+		9D943D05212AC68700B817EB /* TANDBConstaintBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CB5212AC14100B817EB /* TANDBConstaintBinding.m */; };
+		9D943D06212AC68B00B817EB /* TANDBIndexBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CB4212AC14100B817EB /* TANDBIndexBinding.m */; };
+		9D943D07212AC68E00B817EB /* TANDBColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CBA212AC14100B817EB /* TANDBColumn.m */; };
+		9D943D2C212ACC6700B817EB /* NSObject+TANDBColumnCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CA6212AC14100B817EB /* NSObject+TANDBColumnCode.m */; };
+		9D943D2D212ACC6B00B817EB /* NSDate+TANDBColumnCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CAC212AC14100B817EB /* NSDate+TANDBColumnCode.m */; };
+		9D943D2E212ACC8300B817EB /* NSData+TANDBColumnCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CA8212AC14100B817EB /* NSData+TANDBColumnCode.m */; };
+		9D943D2F212ACC8D00B817EB /* NSNumber+TANDBColumnCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CA7212AC14100B817EB /* NSNumber+TANDBColumnCode.m */; };
+		9D943D30212ACC9100B817EB /* NSString+TANDBColumnCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D943CAA212AC14100B817EB /* NSString+TANDBColumnCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +80,20 @@
 			remoteGlobalIDString = 9D943C4F212AC0F200B817EB;
 			remoteInfo = TANDB;
 		};
+		9D943C86212AC10800B817EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D943C47212AC0F200B817EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D943C6D212AC10600B817EB;
+			remoteInfo = TANDBDemo;
+		};
+		9D943C91212AC10800B817EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D943C47212AC0F200B817EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D943C6D212AC10600B817EB;
+			remoteInfo = TANDBDemo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +103,65 @@
 		9D943C59212AC0F200B817EB /* TANDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TANDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D943C5E212AC0F200B817EB /* TANDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TANDBTests.m; sourceTree = "<group>"; };
 		9D943C60212AC0F200B817EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D943C6E212AC10600B817EB /* TANDBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TANDBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D943C70212AC10600B817EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D943C71212AC10600B817EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D943C73212AC10600B817EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D943C74212AC10600B817EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D943C77212AC10600B817EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D943C79212AC10700B817EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D943C7C212AC10700B817EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D943C7E212AC10700B817EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D943C7F212AC10700B817EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D943C85212AC10700B817EB /* TANDBDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TANDBDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D943C89212AC10800B817EB /* TANDBDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TANDBDemoTests.m; sourceTree = "<group>"; };
+		9D943C8B212AC10800B817EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D943C90212AC10800B817EB /* TANDBDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TANDBDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D943C94212AC10800B817EB /* TANDBDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TANDBDemoUITests.m; sourceTree = "<group>"; };
+		9D943C96212AC10800B817EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D943CA6212AC14100B817EB /* NSObject+TANDBColumnCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TANDBColumnCode.m"; sourceTree = "<group>"; };
+		9D943CA7212AC14100B817EB /* NSNumber+TANDBColumnCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+TANDBColumnCode.m"; sourceTree = "<group>"; };
+		9D943CA8212AC14100B817EB /* NSData+TANDBColumnCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TANDBColumnCode.m"; sourceTree = "<group>"; };
+		9D943CA9212AC14100B817EB /* NSDate+TANDBColumnCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TANDBColumnCode.h"; sourceTree = "<group>"; };
+		9D943CAA212AC14100B817EB /* NSString+TANDBColumnCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TANDBColumnCode.m"; sourceTree = "<group>"; };
+		9D943CAB212AC14100B817EB /* NSObject+TANDBColumnCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TANDBColumnCode.h"; sourceTree = "<group>"; };
+		9D943CAC212AC14100B817EB /* NSDate+TANDBColumnCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TANDBColumnCode.m"; sourceTree = "<group>"; };
+		9D943CAD212AC14100B817EB /* NSData+TANDBColumnCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TANDBColumnCode.h"; sourceTree = "<group>"; };
+		9D943CAE212AC14100B817EB /* NSNumber+TANDBColumnCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+TANDBColumnCode.h"; sourceTree = "<group>"; };
+		9D943CAF212AC14100B817EB /* NSString+TANDBColumnCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TANDBColumnCode.h"; sourceTree = "<group>"; };
+		9D943CB2212AC14100B817EB /* TANDBConstaintBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBConstaintBinding.h; sourceTree = "<group>"; };
+		9D943CB3212AC14100B817EB /* TANDBBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANDBBinding.m; sourceTree = "<group>"; };
+		9D943CB4212AC14100B817EB /* TANDBIndexBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANDBIndexBinding.m; sourceTree = "<group>"; };
+		9D943CB5212AC14100B817EB /* TANDBConstaintBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANDBConstaintBinding.m; sourceTree = "<group>"; };
+		9D943CB6212AC14100B817EB /* TANDBBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBBinding.h; sourceTree = "<group>"; };
+		9D943CB7212AC14100B817EB /* TANDBIndexBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBIndexBinding.h; sourceTree = "<group>"; };
+		9D943CB9212AC14100B817EB /* TANDBTableProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBTableProtocol.h; sourceTree = "<group>"; };
+		9D943CBA212AC14100B817EB /* TANDBColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANDBColumn.m; sourceTree = "<group>"; };
+		9D943CBB212AC14100B817EB /* TANDBORMHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBORMHeader.h; sourceTree = "<group>"; };
+		9D943CBC212AC14100B817EB /* TANDBAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBAttribute.h; sourceTree = "<group>"; };
+		9D943CBD212AC14100B817EB /* TANDBRelation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBRelation.h; sourceTree = "<group>"; };
+		9D943CBE212AC14100B817EB /* TANDBMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBMacro.h; sourceTree = "<group>"; };
+		9D943CBF212AC14100B817EB /* TANDBColumnProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBColumnProtocol.h; sourceTree = "<group>"; };
+		9D943CC0212AC14100B817EB /* TANDBAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANDBAttribute.m; sourceTree = "<group>"; };
+		9D943CC1212AC14100B817EB /* TANDBRelation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANDBRelation.m; sourceTree = "<group>"; };
+		9D943CC2212AC14100B817EB /* TANDBColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBColumn.h; sourceTree = "<group>"; };
+		9D943CC3212AC14100B817EB /* TANDBConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANDBConfiguration.h; sourceTree = "<group>"; };
+		9D943CC5212AC14100B817EB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		9D943CC6212AC14100B817EB /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		9D943CC7212AC14100B817EB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9D943CC8212AC14100B817EB /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		9D943CC9212AC14100B817EB /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9D943CCA212AC14100B817EB /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		9D943CCB212AC14100B817EB /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		9D943CCC212AC14100B817EB /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		9D943CCD212AC14100B817EB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9D943CCE212AC14100B817EB /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		9D943CCF212AC14100B817EB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		9D943CD0212AC14100B817EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D943CFC212AC3FE00B817EB /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		9D943CFD212AC3FE00B817EB /* Moment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moment.m; sourceTree = "<group>"; };
+		9D943CFE212AC3FE00B817EB /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		9D943CFF212AC3FE00B817EB /* Moment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moment.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +180,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D943C6B212AC10600B817EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D943C82212AC10700B817EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D943C8D212AC10800B817EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +209,9 @@
 			children = (
 				9D943C52212AC0F200B817EB /* TANDB */,
 				9D943C5D212AC0F200B817EB /* TANDBTests */,
+				9D943C6F212AC10600B817EB /* TANDBDemo */,
+				9D943C88212AC10800B817EB /* TANDBDemoTests */,
+				9D943C93212AC10800B817EB /* TANDBDemoUITests */,
 				9D943C51212AC0F200B817EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +221,9 @@
 			children = (
 				9D943C50212AC0F200B817EB /* TANDB.framework */,
 				9D943C59212AC0F200B817EB /* TANDBTests.xctest */,
+				9D943C6E212AC10600B817EB /* TANDBDemo.app */,
+				9D943C85212AC10700B817EB /* TANDBDemoTests.xctest */,
+				9D943C90212AC10800B817EB /* TANDBDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +231,7 @@
 		9D943C52212AC0F200B817EB /* TANDB */ = {
 			isa = PBXGroup;
 			children = (
+				9D943CA0212AC14000B817EB /* TANDB */,
 				9D943C53212AC0F200B817EB /* TANDB.h */,
 				9D943C54212AC0F200B817EB /* Info.plist */,
 			);
@@ -86,6 +247,146 @@
 			path = TANDBTests;
 			sourceTree = "<group>";
 		};
+		9D943C6F212AC10600B817EB /* TANDBDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9D943CFB212AC3FE00B817EB /* Model */,
+				9D943C70212AC10600B817EB /* AppDelegate.h */,
+				9D943C71212AC10600B817EB /* AppDelegate.m */,
+				9D943C73212AC10600B817EB /* ViewController.h */,
+				9D943C74212AC10600B817EB /* ViewController.m */,
+				9D943C76212AC10600B817EB /* Main.storyboard */,
+				9D943C79212AC10700B817EB /* Assets.xcassets */,
+				9D943C7B212AC10700B817EB /* LaunchScreen.storyboard */,
+				9D943C7E212AC10700B817EB /* Info.plist */,
+				9D943C7F212AC10700B817EB /* main.m */,
+			);
+			path = TANDBDemo;
+			sourceTree = "<group>";
+		};
+		9D943C88212AC10800B817EB /* TANDBDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D943C89212AC10800B817EB /* TANDBDemoTests.m */,
+				9D943C8B212AC10800B817EB /* Info.plist */,
+			);
+			path = TANDBDemoTests;
+			sourceTree = "<group>";
+		};
+		9D943C93212AC10800B817EB /* TANDBDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D943C94212AC10800B817EB /* TANDBDemoUITests.m */,
+				9D943C96212AC10800B817EB /* Info.plist */,
+			);
+			path = TANDBDemoUITests;
+			sourceTree = "<group>";
+		};
+		9D943CA0212AC14000B817EB /* TANDB */ = {
+			isa = PBXGroup;
+			children = (
+				9D943CA3212AC14100B817EB /* src */,
+			);
+			name = TANDB;
+			sourceTree = "<group>";
+		};
+		9D943CA3212AC14100B817EB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9D943CA4212AC14100B817EB /* ORM */,
+				9D943CC4212AC14100B817EB /* fmdb */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9D943CA4212AC14100B817EB /* ORM */ = {
+			isa = PBXGroup;
+			children = (
+				9D943CA5212AC14100B817EB /* Category */,
+				9D943CB0212AC14100B817EB /* Binding */,
+				9D943CB8212AC14100B817EB /* Coding */,
+			);
+			path = ORM;
+			sourceTree = "<group>";
+		};
+		9D943CA5212AC14100B817EB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9D943CAD212AC14100B817EB /* NSData+TANDBColumnCode.h */,
+				9D943CA8212AC14100B817EB /* NSData+TANDBColumnCode.m */,
+				9D943CA9212AC14100B817EB /* NSDate+TANDBColumnCode.h */,
+				9D943CAE212AC14100B817EB /* NSNumber+TANDBColumnCode.h */,
+				9D943CAC212AC14100B817EB /* NSDate+TANDBColumnCode.m */,
+				9D943CAB212AC14100B817EB /* NSObject+TANDBColumnCode.h */,
+				9D943CA7212AC14100B817EB /* NSNumber+TANDBColumnCode.m */,
+				9D943CA6212AC14100B817EB /* NSObject+TANDBColumnCode.m */,
+				9D943CAF212AC14100B817EB /* NSString+TANDBColumnCode.h */,
+				9D943CAA212AC14100B817EB /* NSString+TANDBColumnCode.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9D943CB0212AC14100B817EB /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				9D943CB6212AC14100B817EB /* TANDBBinding.h */,
+				9D943CB3212AC14100B817EB /* TANDBBinding.m */,
+				9D943CB2212AC14100B817EB /* TANDBConstaintBinding.h */,
+				9D943CB5212AC14100B817EB /* TANDBConstaintBinding.m */,
+				9D943CB7212AC14100B817EB /* TANDBIndexBinding.h */,
+				9D943CB4212AC14100B817EB /* TANDBIndexBinding.m */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		9D943CB8212AC14100B817EB /* Coding */ = {
+			isa = PBXGroup;
+			children = (
+				9D943CC2212AC14100B817EB /* TANDBColumn.h */,
+				9D943CBA212AC14100B817EB /* TANDBColumn.m */,
+				9D943CBC212AC14100B817EB /* TANDBAttribute.h */,
+				9D943CC0212AC14100B817EB /* TANDBAttribute.m */,
+				9D943CBD212AC14100B817EB /* TANDBRelation.h */,
+				9D943CC1212AC14100B817EB /* TANDBRelation.m */,
+				9D943CBF212AC14100B817EB /* TANDBColumnProtocol.h */,
+				9D943CC3212AC14100B817EB /* TANDBConfiguration.h */,
+				9D943CBE212AC14100B817EB /* TANDBMacro.h */,
+				9D943CBB212AC14100B817EB /* TANDBORMHeader.h */,
+				9D943CB9212AC14100B817EB /* TANDBTableProtocol.h */,
+			);
+			path = Coding;
+			sourceTree = "<group>";
+		};
+		9D943CC4212AC14100B817EB /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				9D943CC5212AC14100B817EB /* FMDatabase.h */,
+				9D943CC6212AC14100B817EB /* FMDatabaseQueue.m */,
+				9D943CC7212AC14100B817EB /* FMResultSet.h */,
+				9D943CC8212AC14100B817EB /* FMDatabasePool.h */,
+				9D943CC9212AC14100B817EB /* FMDatabaseAdditions.m */,
+				9D943CCA212AC14100B817EB /* FMDatabase.m */,
+				9D943CCB212AC14100B817EB /* FMDatabaseQueue.h */,
+				9D943CCC212AC14100B817EB /* FMDB.h */,
+				9D943CCD212AC14100B817EB /* FMDatabaseAdditions.h */,
+				9D943CCE212AC14100B817EB /* FMDatabasePool.m */,
+				9D943CCF212AC14100B817EB /* FMResultSet.m */,
+				9D943CD0212AC14100B817EB /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		9D943CFB212AC3FE00B817EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D943CFF212AC3FE00B817EB /* Moment.h */,
+				9D943CFD212AC3FE00B817EB /* Moment.m */,
+				9D943CFE212AC3FE00B817EB /* UserInfo.h */,
+				9D943CFC212AC3FE00B817EB /* UserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +394,29 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D943CED212AC14100B817EB /* TANDBColumn.h in Headers */,
+				9D943CE3212AC14100B817EB /* TANDBIndexBinding.h in Headers */,
+				9D943CE4212AC14100B817EB /* TANDBTableProtocol.h in Headers */,
+				9D943CE8212AC14100B817EB /* TANDBRelation.h in Headers */,
+				9D943CDC212AC14100B817EB /* NSString+TANDBColumnCode.h in Headers */,
+				9D943CEE212AC14100B817EB /* TANDBConfiguration.h in Headers */,
+				9D943CE6212AC14100B817EB /* TANDBORMHeader.h in Headers */,
+				9D943CE9212AC14100B817EB /* TANDBMacro.h in Headers */,
+				9D943CDE212AC14100B817EB /* TANDBConstaintBinding.h in Headers */,
+				9D943CF5212AC14100B817EB /* FMDatabaseQueue.h in Headers */,
+				9D943CF2212AC14100B817EB /* FMDatabasePool.h in Headers */,
+				9D943CD8212AC14100B817EB /* NSObject+TANDBColumnCode.h in Headers */,
+				9D943CD6212AC14100B817EB /* NSDate+TANDBColumnCode.h in Headers */,
+				9D943CF7212AC14100B817EB /* FMDatabaseAdditions.h in Headers */,
+				9D943CDB212AC14100B817EB /* NSNumber+TANDBColumnCode.h in Headers */,
+				9D943CEA212AC14100B817EB /* TANDBColumnProtocol.h in Headers */,
+				9D943CE2212AC14100B817EB /* TANDBBinding.h in Headers */,
+				9D943CF1212AC14100B817EB /* FMResultSet.h in Headers */,
+				9D943CDA212AC14100B817EB /* NSData+TANDBColumnCode.h in Headers */,
 				9D943C61212AC0F200B817EB /* TANDB.h in Headers */,
+				9D943CF6212AC14100B817EB /* FMDB.h in Headers */,
+				9D943CEF212AC14100B817EB /* FMDatabase.h in Headers */,
+				9D943CE7212AC14100B817EB /* TANDBAttribute.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +459,59 @@
 			productReference = 9D943C59212AC0F200B817EB /* TANDBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9D943C6D212AC10600B817EB /* TANDBDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D943C97212AC10800B817EB /* Build configuration list for PBXNativeTarget "TANDBDemo" */;
+			buildPhases = (
+				9D943C6A212AC10600B817EB /* Sources */,
+				9D943C6B212AC10600B817EB /* Frameworks */,
+				9D943C6C212AC10600B817EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TANDBDemo;
+			productName = TANDBDemo;
+			productReference = 9D943C6E212AC10600B817EB /* TANDBDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D943C84212AC10700B817EB /* TANDBDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D943C9A212AC10800B817EB /* Build configuration list for PBXNativeTarget "TANDBDemoTests" */;
+			buildPhases = (
+				9D943C81212AC10700B817EB /* Sources */,
+				9D943C82212AC10700B817EB /* Frameworks */,
+				9D943C83212AC10700B817EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D943C87212AC10800B817EB /* PBXTargetDependency */,
+			);
+			name = TANDBDemoTests;
+			productName = TANDBDemoTests;
+			productReference = 9D943C85212AC10700B817EB /* TANDBDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D943C8F212AC10800B817EB /* TANDBDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D943C9D212AC10800B817EB /* Build configuration list for PBXNativeTarget "TANDBDemoUITests" */;
+			buildPhases = (
+				9D943C8C212AC10800B817EB /* Sources */,
+				9D943C8D212AC10800B817EB /* Frameworks */,
+				9D943C8E212AC10800B817EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D943C92212AC10800B817EB /* PBXTargetDependency */,
+			);
+			name = TANDBDemoUITests;
+			productName = TANDBDemoUITests;
+			productReference = 9D943C90212AC10800B817EB /* TANDBDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +527,17 @@
 					9D943C58212AC0F200B817EB = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					9D943C6D212AC10600B817EB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					9D943C84212AC10700B817EB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9D943C6D212AC10600B817EB;
+					};
+					9D943C8F212AC10800B817EB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9D943C6D212AC10600B817EB;
+					};
 				};
 			};
 			buildConfigurationList = 9D943C4A212AC0F200B817EB /* Build configuration list for PBXProject "TANDB" */;
@@ -159,6 +546,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 9D943C46212AC0F200B817EB;
 			productRefGroup = 9D943C51212AC0F200B817EB /* Products */;
@@ -167,6 +555,9 @@
 			targets = (
 				9D943C4F212AC0F200B817EB /* TANDB */,
 				9D943C58212AC0F200B817EB /* TANDBTests */,
+				9D943C6D212AC10600B817EB /* TANDBDemo */,
+				9D943C84212AC10700B817EB /* TANDBDemoTests */,
+				9D943C8F212AC10800B817EB /* TANDBDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -176,10 +567,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D943CFA212AC14100B817EB /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9D943C57212AC0F200B817EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D943C6C212AC10600B817EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D943C7D212AC10700B817EB /* LaunchScreen.storyboard in Resources */,
+				9D943C7A212AC10700B817EB /* Assets.xcassets in Resources */,
+				9D943C78212AC10600B817EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D943C83212AC10700B817EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D943C8E212AC10800B817EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,6 +609,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D943CE0212AC14100B817EB /* TANDBIndexBinding.m in Sources */,
+				9D943CE1212AC14100B817EB /* TANDBConstaintBinding.m in Sources */,
+				9D943CEB212AC14100B817EB /* TANDBAttribute.m in Sources */,
+				9D943CF4212AC14100B817EB /* FMDatabase.m in Sources */,
+				9D943CD9212AC14100B817EB /* NSDate+TANDBColumnCode.m in Sources */,
+				9D943CE5212AC14100B817EB /* TANDBColumn.m in Sources */,
+				9D943CF9212AC14100B817EB /* FMResultSet.m in Sources */,
+				9D943CF0212AC14100B817EB /* FMDatabaseQueue.m in Sources */,
+				9D943CF8212AC14100B817EB /* FMDatabasePool.m in Sources */,
+				9D943CD4212AC14100B817EB /* NSNumber+TANDBColumnCode.m in Sources */,
+				9D943CD3212AC14100B817EB /* NSObject+TANDBColumnCode.m in Sources */,
+				9D943CF3212AC14100B817EB /* FMDatabaseAdditions.m in Sources */,
+				9D943CDF212AC14100B817EB /* TANDBBinding.m in Sources */,
+				9D943CD7212AC14100B817EB /* NSString+TANDBColumnCode.m in Sources */,
+				9D943CEC212AC14100B817EB /* TANDBRelation.m in Sources */,
+				9D943CD5212AC14100B817EB /* NSData+TANDBColumnCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +636,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D943C6A212AC10600B817EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D943D00212AC3FE00B817EB /* UserInfo.m in Sources */,
+				9D943D05212AC68700B817EB /* TANDBConstaintBinding.m in Sources */,
+				9D943D2C212ACC6700B817EB /* NSObject+TANDBColumnCode.m in Sources */,
+				9D943C75212AC10600B817EB /* ViewController.m in Sources */,
+				9D943C80212AC10700B817EB /* main.m in Sources */,
+				9D943D06212AC68B00B817EB /* TANDBIndexBinding.m in Sources */,
+				9D943D07212AC68E00B817EB /* TANDBColumn.m in Sources */,
+				9D943D2F212ACC8D00B817EB /* NSNumber+TANDBColumnCode.m in Sources */,
+				9D943D2D212ACC6B00B817EB /* NSDate+TANDBColumnCode.m in Sources */,
+				9D943D02212AC66F00B817EB /* TANDBRelation.m in Sources */,
+				9D943D30212ACC9100B817EB /* NSString+TANDBColumnCode.m in Sources */,
+				9D943C72212AC10600B817EB /* AppDelegate.m in Sources */,
+				9D943D04212AC68400B817EB /* TANDBBinding.m in Sources */,
+				9D943D01212AC3FE00B817EB /* Moment.m in Sources */,
+				9D943D03212AC67600B817EB /* TANDBAttribute.m in Sources */,
+				9D943D2E212ACC8300B817EB /* NSData+TANDBColumnCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D943C81212AC10700B817EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D943C8A212AC10800B817EB /* TANDBDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D943C8C212AC10800B817EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D943C95212AC10800B817EB /* TANDBDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -212,7 +683,36 @@
 			target = 9D943C4F212AC0F200B817EB /* TANDB */;
 			targetProxy = 9D943C5B212AC0F200B817EB /* PBXContainerItemProxy */;
 		};
+		9D943C87212AC10800B817EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D943C6D212AC10600B817EB /* TANDBDemo */;
+			targetProxy = 9D943C86212AC10800B817EB /* PBXContainerItemProxy */;
+		};
+		9D943C92212AC10800B817EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D943C6D212AC10600B817EB /* TANDBDemo */;
+			targetProxy = 9D943C91212AC10800B817EB /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D943C76212AC10600B817EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D943C77212AC10600B817EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D943C7B212AC10700B817EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D943C7C212AC10700B817EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9D943C62212AC0F300B817EB /* Debug */ = {
@@ -413,6 +913,114 @@
 			};
 			name = Release;
 		};
+		9D943C98212AC10800B817EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6QSEMKSK2;
+				INFOPLIST_FILE = TANDBDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.super.TANDBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D943C99212AC10800B817EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6QSEMKSK2;
+				INFOPLIST_FILE = TANDBDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.super.TANDBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D943C9B212AC10800B817EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6QSEMKSK2;
+				INFOPLIST_FILE = TANDBDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.super.TANDBDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TANDBDemo.app/TANDBDemo";
+			};
+			name = Debug;
+		};
+		9D943C9C212AC10800B817EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6QSEMKSK2;
+				INFOPLIST_FILE = TANDBDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.super.TANDBDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TANDBDemo.app/TANDBDemo";
+			};
+			name = Release;
+		};
+		9D943C9E212AC10800B817EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6QSEMKSK2;
+				INFOPLIST_FILE = TANDBDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.super.TANDBDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TANDBDemo;
+			};
+			name = Debug;
+		};
+		9D943C9F212AC10800B817EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6QSEMKSK2;
+				INFOPLIST_FILE = TANDBDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.super.TANDBDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TANDBDemo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -439,6 +1047,33 @@
 			buildConfigurations = (
 				9D943C68212AC0F300B817EB /* Debug */,
 				9D943C69212AC0F300B817EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D943C97212AC10800B817EB /* Build configuration list for PBXNativeTarget "TANDBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D943C98212AC10800B817EB /* Debug */,
+				9D943C99212AC10800B817EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D943C9A212AC10800B817EB /* Build configuration list for PBXNativeTarget "TANDBDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D943C9B212AC10800B817EB /* Debug */,
+				9D943C9C212AC10800B817EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D943C9D212AC10800B817EB /* Build configuration list for PBXNativeTarget "TANDBDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D943C9E212AC10800B817EB /* Debug */,
+				9D943C9F212AC10800B817EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
