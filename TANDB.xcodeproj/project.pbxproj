@@ -223,8 +223,8 @@
 		5680C829212C362A0098DECF /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				5680C82A212C362A0098DECF /* TANDatabase.m */,
 				5680C82B212C362A0098DECF /* TANDatabase.h */,
+				5680C82A212C362A0098DECF /* TANDatabase.m */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -232,12 +232,12 @@
 		5680C82E212C36310098DECF /* Operation */ = {
 			isa = PBXGroup;
 			children = (
-				5680C82F212C36310098DECF /* TANDBDelete.m */,
 				5680C830212C36310098DECF /* TANDBGet.h */,
-				5680C831212C36310098DECF /* TANDBSave.m */,
 				5680C832212C36310098DECF /* TANDBGet.m */,
-				5680C833212C36310098DECF /* TANDBDelete.h */,
 				5680C834212C36310098DECF /* TANDBSave.h */,
+				5680C831212C36310098DECF /* TANDBSave.m */,
+				5680C833212C36310098DECF /* TANDBDelete.h */,
+				5680C82F212C36310098DECF /* TANDBDelete.m */,
 			);
 			path = Operation;
 			sourceTree = "<group>";
